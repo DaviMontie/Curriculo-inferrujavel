@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currículo - início</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #202020;
+            line-height: 1.5;
+        }
+
+        .imgrodape {
+            width: 5vw;
+            height: 5vw;
+
+            max-width: 30px;
+            max-height: 30px;
+        }
+
+        .imagem {
+            width: 60vw;
+            max-width: 300px;
+            border-radius: 5px;
+            border: 2px solid #0000005e;
+        }
+
+        .imagem .balao {
+            height: 10vw;
+
+
+        }
+
+        .caixa {
+            width: 60vw;
+            max-width: 900px;
+
+            padding: 20px;
+            margin: 10px 5px;
+            border-radius: 10px;
+            border: 2px solid #00000076;
+            background: linear-gradient(to left, #f7effffd, #ffedfd);
+            text-align: justify;
+        }
+
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10vw;
+        }
+
+        .balao {
+            width: 30vw;
+            max-width: 500px;
+
+            padding: 20px;
+            margin: 10px 10px;
+            border-radius: 10px;
+            border: 2px solid #00000096;
+            background: linear-gradient(to left, #fff4f45b, #f9d4ff83);
+        }
+
+        ul {
+            list-style-type: '★     ';
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        ul ol {
+            margin: 8px 0;
+            list-style-type: '☆     '
+        }
+
+        h1 {
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+
+        h2 {
+            color: rgb(56, 56, 56);
+            text-align: center;
+            margin-top: 2px;
+        }
+
+        .balao h2 {
+            font-size: 20px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        main {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2% 0;
+            background: white;
+            border-radius: 10px;
+        }
+
+        section {
+            margin-top: 0px;
+            padding-bottom: 5px;
+            border-top: solid 1px gray;
+        }
+
+        nav {
+            width: 72vw;
+            max-width: 1100px;
+            margin: 10px auto;
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid #0000004f;
+            background: linear-gradient(to left, #f7effffd, #ffedfd);
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(48, 48, 48);
+        }
+
+        nav a:hover {
+            color: #000;
+            text-decoration: underline;
+        }
+
+        .caixa:hover,
+        .balao:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <header>
+            <div class="flex" style="margin: 20px 0;">
+                <div class="caixa" style="max-width: 300px; align-items: center;">
+                    <img class="imagem" src="imagens/puxaFrango.png">
+                </div>
+                <div class="balao"
+                    style="margin: 20px 0px; width: 70vw; max-width: 900px; text-align: center;display: flex; align-items: center; justify-content: center;">
+                    <h1>Puxa Frango - Desenvolvedor Sênior</h1>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <a href="#perfil">Perfil</a>
+            <a href="#formacao">Formação</a>
+            <a href="#competencias">Competências</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <section class="caixa" id="perfil" style="margin: 20px auto;">
+            <h2>Perfil</h2>
+            <p>Puxa Frango é um desenvolvedor web apaixonado por criar experiências digitais envolventes e inovadoras.
+                Com uma sólida formação em desenvolvimento front-end e back-end, ele é conhecido por sua habilidade em
+                transformar ideias em realidade através de código limpo e eficiente. Puxa Frango é um entusiasta da
+                tecnologia, sempre buscando aprender novas linguagens de programação e explorar as últimas tendências do
+                setor para oferecer soluções criativas e eficazes aos seus clientes.</p>
+            <p>Ele atua como freelancer, oferecendo serviços de desenvolvimento web personalizados para atender às
+                necessidades específicas de cada cliente.</p>
+            <p>Porém com esse curículo ele espera conseguir um bom emprego.</p>
+        </section>
+
+        <div class="balao"
+            style="border: 0; max-width: 1500px; width: 63vw; margin: 0 auto;background: radial-gradient(ellipse, #ff93f2, #ffb8f779,#ffb8f710,#a1a1a100);">
+            <div class="flex" style="gap: 5.5vw;">
+                <section class="balao" id="formacao" style="margin-left: 3vw;">
+                    <h2>Formação</h2>
+                    <ul>
+                        <li>
+                            Terminou o ensino médio
+                        </li>
+                        <li>
+                            Formado em Ciência da Computação na <a
+                                href="https://www5.usp.br/ensino/graduacao/cursos-oferecidos/ciencias-da-computacao/"
+                                target="_blank">USP</a>
+                        </li>
+                        <li>
+                            Formado em Engenharia Aeroespacial no <a href="http://www.ita.br" target="_blank">ITA</a>
+                        </li>
+                        <li>
+                            Formado em Engenharia de Software na <a href="https://engsoft.ic.unicamp.br/"
+                                target="_blank">UNICAMP</a>
+                        </li>
+                        <li>
+                            Formado em Análise e Desenvolvimento de Sistemas na <a
+                                href="https://www.fiap.com.br/cursos/analise-e-desenvolvimento-de-sistemas/"
+                                target="_blank">FIAP</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="balao" id="competencias">
+                    <h2>Competências</h2>
+                    <ul>
+                        <li>
+                            Programação em diversas linguagens, incluindo Python, JavaScript, Java e C++.
+                        </li>
+                        <li>
+                            Desenvolvimento de aplicações web utilizando frameworks como React, Angular e Vue.js.
+                        </li>
+                        <li>
+                            Experiência com bancos de dados relacionais e não relacionais, como MySQL, PostgreSQL e
+                            MongoDB.
+                        </li>
+                        <li>
+                            Conhecimento em metodologias ágeis de desenvolvimento de software, como Scrum e Kanban.
+                        </li>
+                        <li>
+                            Habilidades em design de interfaces e experiência do usuário (UI/UX).
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <section id="experiencia" class="balao" style="margin: 5.5vw auto;">
+                <h2>Experiência</h2>
+                <ul>
+                    <li>
+                        Empresa X (Twitter) - Desenvolvedor Web por 3 anos
+                        <ol>
+                            <li>Criou interfaces modernas e responsivas</li>
+                            <li>Melhorou o desempenho das páginas</li>
+                            <li>Participou da manutenção do sistema interno</li>
+                        </ol>
+                    </li>
+                    <li>
+                        Projeto Linux - Contribuições técnicas
+                        <ol>
+                            <li>Corrigiu bugs em módulos do sistema</li>
+                            <li>Implementou melhorias de estabilidade</li>
+                            <li>Colaborou com documentação e testes</li>
+                        </ol>
+                    </li>
+                </ul>
+                <a href="experiencia.html" style="text-decoration: underline;">Mais informações</a>
+            </section>
+        </div>
+
+
+
+
+
+        <footer>
+            <section id="contato" class="caixa" style="margin: 10px auto; width: 72vw; max-width: 1100px;">
+                <h2>Contato</h2>
+                <div class="flex">
+                    <div>
+                        <img class="imgrodape" src="imagens/local.png">
+                        <a href="https://maps.app.goo.gl/tSwDm6E2edc8rNk98" target="_blank">Rua dos Programadores </a>
+                    </div>
+                    <div>
+                        <img class="imgrodape" src="imagens/tel.png">
+                        <a href="tel:+5511999999999">+55 11 99999-9999</a>
+                    </div>
+                    <div>
+                        <img class="imgrodape" src="imagens/email.png">
+                        <a href="mailto:puxa_frango@gmail.com">puxa_frango@gmail.com</a>
+                    </div>
+                </div>
+
+
+            </section>
+        </footer>
+    </main>
+</body>
+
+</html>

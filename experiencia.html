@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currículo - experiência</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2% 0;
+            background: white;
+            border-radius: 10px;
+        }
+
+        section {
+            margin: 20px auto;
+            width: 72vw;
+            max-width: 1100px;
+            padding-bottom: 10px;
+            border-top: solid 1px gray;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #777;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        figure {
+            text-align: center;
+            margin: 20px auto;
+        }
+
+        figure img {
+            width: 60%;
+            max-width: 400px;
+            border-radius: 8px;
+            border: 2px solid #0000005e;
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        h1 {
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+
+        h2 {
+            color: rgb(41, 41, 41);
+            text-align: center;
+            margin-top: 2px;
+        }
+
+        .caixa {
+            width: 60vw;
+            max-width: 900px;
+
+            padding: 20px;
+            margin: 30px auto;
+            border-radius: 10px;
+            border: 2px solid #00000076;
+            background: linear-gradient(to left, #f7effffd, #ffedfd);
+            text-align: justify;
+        }
+
+        .flex {
+            margin: 50px 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1%;
+        }
+
+        .video {
+            background: #e2e2e2;
+            width: 30vw;
+            min-width: 530px;
+            max-width: 570px;
+
+            height: 30vw;
+            min-height: 316px;
+            max-height: 350px;
+
+            margin: 10px auto;
+        }
+
+        .Decoracao {
+            width: 35vw;
+            min-width: 570px;
+            max-width: 600px;
+
+            height: 32vw;
+            min-height: 336px;
+            max-height: 375px;
+
+            margin: 0px auto;
+            display: flex;
+            background: linear-gradient(to left, #cc80ff6b, #ffe4f7, #e797ff6c);
+            border-radius: 5px;
+        }
+
+        nav {
+            width: 72vw;
+            max-width: 1100px;
+            margin: 10px auto;
+            padding: 15px;
+            border: 2px solid #0000005e;
+            border-radius: 10px;
+            background: linear-gradient(to left, #f7effffd, #ffedfd);
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(48, 48, 48);
+        }
+
+        nav a:hover {
+            color: #000;
+            text-decoration: underline;
+        }
+
+        .caixa:hover,
+        .balao:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="caixa" style="margin: 10px auto; width: 72vw; max-width: 1100px;">
+                <h1>Currículo - Experiência</h1>
+            </div>
+        </header>
+        <nav>
+            <a href="index.html">Voltar</a>
+            <a href="#resumo">Resumo</a>
+            <a href="#destaque">Destaque</a>
+        </nav>
+        <section id="resumo" class="caixa">
+            <h2>Resumo das Experiências</h2>
+            <table>
+                <tr>
+                    <th>Projeto</th>
+                    <th>Função</th>
+                    <th>Duração</th>
+                    <th>Destaque</th>
+                </tr>
+                <tr>
+                    <td>Twitter</td>
+                    <td>Desenvolvedor Web</td>
+                    <td>5 anos</td>
+                    <td>Idealizador do Grok</td>
+                </tr>
+                <tr>
+                    <td>Linux</td>
+                    <td>Desenvolvedor de Software</td>
+                    <td>4 anos</td>
+                    <td>Contribuições para o kernel</td>
+                </tr>
+                <tr>
+                    <td>Programa Voyager</td>
+                    <td>Engenheiro de Sistemas</td>
+                    <td>7 anos</td>
+                    <td>Comunicação espacial</td>
+                </tr>
+                <tr>
+                    <td>Programa Apollo</td>
+                    <td>Especialista Técnico</td>
+                    <td>6 anos</td>
+                    <td>Controle e propulsão</td>
+                </tr>
+                <tr>
+                    <td>Pica-Pau</td>
+                    <td>Participação Especial</td>
+                    <td>1 episódio</td>
+                    <td>Atuação e criatividade</td>
+                </tr>
+            </table>
+        </section>
+        <section id="destaque">
+            <div class="caixa">
+                <h2>Destaque - Programa Apollo</h2>
+                <figure>
+                    <img src="imagens/apollo.png" alt="Emblema representando a missão apollo 11">
+                    <figcaption>Imagem simbólica de uma das áreas em que o candidato atuou: O programa Apollo
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="caixa">
+                <p>Sobre o Programa Apollo, Eu sempre tive uma paixão por explorar o espaço e contribuir para o sucesso
+                    das missões lunares.</p>
+                <p>Tanto que eu busquei oportunidades para me envolver em projetos relacionados e expandir meu
+                    conhecimento em engenharia aeroespacial.</p>
+                <p>Minha participação no Programa Apollo me permitiu desenvolver habilidades técnicas avançadas, além de
+                    aprimorar minha capacidade de trabalhar em equipe e resolver problemas complexos.</p>
+                <p>Fiz Grandes contribuições para o sucesso das missões lunares.</p>
+                <p>Exemplo: Desenvolvi um novo sistema de controle de trajetória que melhorou a precisão das missões.
+                </p>
+            </div>
+
+        </section>
+        <div class="flex">
+            <div class="caixa" style="margin: 10px auto; width: 72vw; max-width: 1100px;">
+                <h1>Linux</h1>
+                <p>Escrevi um artigo sobre o kernel do Linux e compartilhei com a comunidade de desenvolvedores. Porém
+                    ela não recebeu a atenção que merecia. Então eu processei eles e consegui aumentar a visibilidade do
+                    meu trabalho.</p>
+                <p>Minha participação no desenvolvimento do Linux me permitiu aprimorar minhas habilidades em
+                    programação de sistemas e colaborar com uma comunidade global de desenvolvedores.</p>
+                <p>Eu contribuí com correções de bugs, melhorias de desempenho e novas funcionalidades para o kernel do
+                    Linux, além de participar de discussões técnicas e revisões de código.</p>
+            </div>
+
+        </div>
+        <div class="flex">
+            <div class="caixa" style="margin: 10px auto; width: 72vw; max-width: 1100px;">
+                <h1>Twitter</h1>
+                <p>Minha participação no Twitter me permitiu desenvolver habilidades em comunicação e interação com o
+                    público, além de aprimorar minha capacidade de criar conteúdo atraente e relevante.</p>
+                <p>Eu criei uma conta e comecei a compartilhar minhas ideias e opiniões sobre diversos temas.</p>
+                <p>Com o tempo, minha conta ganhou popularidade e se tornou um espaço para discussões construtivas e
+                    troca de conhecimentos.</p>
+                <p>Exemplo: Idealizei o Grok, um modelo de linguagem avançado que se tornou uma ferramenta essencial
+                    para a comunidade de desenvolvedores e entusiastas de tecnologia.</p>
+                <p>Também contribuí com ideias e feedbacks para o desenvolvimento de novas funcionalidades da
+                    plataforma.</p>
+            </div>
+
+        </div>
+        <div class="flex">
+            <div class="caixa" style="margin: 10px auto; width: 72vw; max-width: 1100px;">
+                <h1>Programa Voyager</h1>
+                <p>A Missão Voyager foi uma das missões mais importantes da história da exploração espacial, com o
+                    objetivo de estudar os planetas gigantes e o ambiente interestelar.</p>
+                <p>Eu fui para lá, justo quando terminou a missão Apollo 11, recordo disso muito bem. Contudo, a
+                    experiência me proporcionou um profundo conhecimento em engenharia aeroespacial, além de habilidades
+                    em trabalho em equipe, resolução de problemas e inovação tecnológica.</p>
+                <p>Foi muito enriquecedora. Ver tantos lugares novos e descobrir coisas incríveis foi uma experiência
+                    inesquecível. Coisa assim não acontecen no dia a dia.</p>
+                <p>Exemplo: Desenvolvi um sistema de comunicação inovador que permitiu a transmissão de dados em longas
+                    distâncias, contribuindo para o sucesso da missão.</p>
+                <p>Também dei a ideia de retirar energia do plutônio, a ideia foi amplamente aceita e utilizada</p>
+            </div>
+            <div class="Decoracao">
+                <iframe class="video" src="https://www.youtube.com/embed/4yL-Glq3iw8?si=JRQo_Dj8Q9oLyZHp"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="caixa" style="margin: 10px auto; width: 72vw; max-width: 1100px;">
+                <h1>Participação <i><b style="color: #414141;">Especial</b></i> No desenho Pica-Pau </h1>
+                <p>Eu participei ativamente do projeto, contribuindo com minha criatividade e habilidades artísticas
+                    para o desenvolvimento dos personagens e cenas.</p>
+                <p>Eu fui ator em um dos episódios, trazendo vida aos personagens e contribuindo para a qualidade da
+                    animação.</p>
+                <p>Essa experiência me permitiu desenvolver minhas habilidades de atuação e compreender melhor o
+                    processo de criação de conteúdo animado.</p>
+                <p>O nome do episódio é "Não Puxem Minhas Penas", Lançado em 4 de Julho de 1961, Sendo o ultimo
+                    Episodio Da 4 Temporada De Pica-Pau, Sendo ele 110 Episodio Estreado De Pica-Pau (Contando o Piloto)
+                </p>
+            </div>
+            <div class="Decoracao">
+                <iframe class="video" src="https://www.youtube.com/embed/5DXN8Q1pGko?si=jUlz9IGLPL24wWfu"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
