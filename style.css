@@ -1,0 +1,138 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #202020;
+    line-height: 1.5;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2% 0;
+    background: white;
+    border-radius: 10px;
+}
+
+section {
+    margin-top: 0;
+    padding-bottom: 5px;
+    border-top: solid 1px gray;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(56, 56, 56);
+    text-align: center;
+    margin-top: 2px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.caixa {
+    width: 60vw;
+    max-width: 900px;
+    padding: 20px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    border: 2px solid #00000076;
+    background: linear-gradient(to left, #f7effffd, #ffedfd);
+    text-align: justify;
+}
+
+.balao {
+    width: 30vw;
+    max-width: 500px;
+    padding: 20px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid #00000096;
+    background: linear-gradient(to left, #fff4f45b, #f9d4ff83);
+}
+
+nav {
+    width: 72vw;
+    max-width: 1100px;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #0000004f;
+    background: linear-gradient(to left, #f7effffd, #ffedfd);
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+}
+
+nav a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.caixa:hover,
+.balao:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.topo {
+    margin: 20px 0;
+}
+
+.caixa-larga {
+    margin: 10px auto;
+    width: 72vw;
+    max-width: 1100px;
+}
+
+.foto-box {
+    max-width: 300px;
+    align-items: center;
+}
+
+.titulo-box {
+    margin: 20px 0;
+    width: 70vw;
+    max-width: 900px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil-box {
+    margin: 20px auto;
+}
+
+.wrap-rosa {
+    border: 0;
+    max-width: 1500px;
+    width: 63vw;
+    margin: 0 auto;
+    background: radial-gradient(ellipse, #ff93f2, #ffb8f779, #ffb8f710, #a1a1a100);
+}
+
+.gap-menor {
+    gap: 5.5vw;
+}
+
+.formacao-box {
+    margin-left: 3vw;
+}
+
+.experiencia-box {
+    margin: 5.5vw auto;
+}

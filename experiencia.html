@@ -5,29 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>currículo - experiência</title>
+
+    <link rel="stylesheet" href="style.css">
+
     <style>
-        body {
-            height: 100vh;
-            margin: 0;
-            padding: 0;
-        }
-
-        main {
-            width: 80%;
-            margin: 0 auto;
-            padding: 2% 0;
-            background: white;
-            border-radius: 10px;
-        }
-
-        section {
-            margin: 20px auto;
-            width: 72vw;
-            max-width: 1100px;
-            padding-bottom: 10px;
-            border-top: solid 1px gray;
-        }
-
         table {
             width: 100%;
             border-collapse: collapse;
@@ -63,47 +44,14 @@
             font-style: italic;
         }
 
-        h1 {
-            color: rgb(0, 0, 0);
-            text-align: center;
-        }
-
-        h2 {
-            color: rgb(41, 41, 41);
-            text-align: center;
-            margin-top: 2px;
-        }
-
-        .caixa {
-            width: 60vw;
-            max-width: 900px;
-
-            padding: 20px;
-            margin: 30px auto;
-            border-radius: 10px;
-            border: 2px solid #00000076;
-            background: linear-gradient(to left, #f7effffd, #ffedfd);
-            text-align: justify;
-        }
-
-        .flex {
-            margin: 50px 0px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 1%;
-        }
-
         .video {
             background: #e2e2e2;
             width: 30vw;
             min-width: 530px;
             max-width: 570px;
-
             height: 30vw;
             min-height: 316px;
             max-height: 350px;
-
             margin: 10px auto;
         }
 
@@ -111,43 +59,13 @@
             width: 35vw;
             min-width: 570px;
             max-width: 600px;
-
             height: 32vw;
             min-height: 336px;
             max-height: 375px;
-
-            margin: 0px auto;
+            margin: 0 auto;
             display: flex;
             background: linear-gradient(to left, #cc80ff6b, #ffe4f7, #e797ff6c);
             border-radius: 5px;
-        }
-
-        nav {
-            width: 72vw;
-            max-width: 1100px;
-            margin: 10px auto;
-            padding: 15px;
-            border: 2px solid #0000005e;
-            border-radius: 10px;
-            background: linear-gradient(to left, #f7effffd, #ffedfd);
-            text-align: center;
-        }
-
-        nav a {
-            margin: 0 10px;
-            text-decoration: none;
-            font-weight: bold;
-            color: rgb(48, 48, 48);
-        }
-
-        nav a:hover {
-            color: #000;
-            text-decoration: underline;
-        }
-
-        .caixa:hover,
-        .balao:hover {
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
     </style>
 
@@ -156,7 +74,7 @@
 <body>
     <main>
         <header>
-            <div class="caixa" style="margin: 10px auto; width: 72vw; max-width: 1100px;">
+            <div class="caixa caixa-larga">
                 <h1>Currículo - Experiência</h1>
             </div>
         </header>
@@ -165,7 +83,7 @@
             <a href="#resumo">Resumo</a>
             <a href="#destaque">Destaque</a>
         </nav>
-        <section id="resumo" class="caixa">
+        <section id="resumo" class="caixa perfil-box">
             <h2>Resumo das Experiências</h2>
             <table>
                 <tr>
@@ -207,7 +125,7 @@
             </table>
         </section>
         <section id="destaque">
-            <div class="caixa">
+            <div class="caixa perfil-box">
                 <h2>Destaque - Programa Apollo</h2>
                 <figure>
                     <img src="imagens/apollo.png" alt="Emblema representando a missão apollo 11">
@@ -215,7 +133,7 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="caixa">
+            <div class="caixa perfil-box">
                 <p>Sobre o Programa Apollo, Eu sempre tive uma paixão por explorar o espaço e contribuir para o sucesso
                     das missões lunares.</p>
                 <p>Tanto que eu busquei oportunidades para me envolver em projetos relacionados e expandir meu
